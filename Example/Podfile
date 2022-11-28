@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'YesidFaceAuthentication_Example' do
+  pod 'YesidFaceAuthentication', :path => '../'
+
+  target 'YesidFaceAuthentication_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
