@@ -27,3 +27,4 @@ Emmanuel Mtera, 114977026+vijanatech@users.noreply.github.com
 ## License
 
 YesidFaceAuthentication is available under the MIT license. See the LICENSE file for more info.
+# YesidFaceAuthentication
