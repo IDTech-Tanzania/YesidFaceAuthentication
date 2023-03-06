@@ -1,0 +1,22 @@
+{
+  "name": "YesidFaceAuthentication",
+  "version": "0.1.0",
+  "summary": "A short description of YesidFaceAuthentication.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Emmanuel Mtera/YesidFaceAuthentication",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Emmanuel Mtera": "114977026+vijanatech@users.noreply.github.com"
+  },
+  "source": {
+    "git": "https://github.com/Emmanuel Mtera/YesidFaceAuthentication.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "YesidFaceAuthentication/Classes/**/*"
+}

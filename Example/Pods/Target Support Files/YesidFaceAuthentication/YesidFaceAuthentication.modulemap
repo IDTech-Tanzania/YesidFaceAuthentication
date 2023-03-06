@@ -1,0 +1,6 @@
+framework module YesidFaceAuthentication {
+  umbrella header "YesidFaceAuthentication-umbrella.h"
+
+  export *
+  module * { export * }
+}

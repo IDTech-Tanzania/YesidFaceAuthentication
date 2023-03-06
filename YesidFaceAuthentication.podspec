@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'YesidFaceAuthentication'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of YesidFaceAuthentication.'
+  s.summary          = 'YesidFaceAuthentication SDK for SwiftUI'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Emmanuel Mtera/YesidFaceAuthentication'
+  s.homepage         = 'https://github.com/IDTech-Tanzania/YesidFaceAuthentication'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Emmanuel Mtera' => '114977026+vijanatech@users.noreply.github.com' }
-  s.source           = { :git => 'https://github.com/Emmanuel Mtera/YesidFaceAuthentication.git', :tag => s.version.to_s }
+  s.author           = { 'Emmanuel Mtera' => 'emtera@yesid.io' }
+  s.source           = { :git => 'https://github.com/IDTech-Tanzania/YesidFaceAuthentication.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'YesidFaceAuthentication/Classes/**/*'
   

@@ -1,0 +1,16 @@
+PODS:
+  - YesidFaceAuthentication (0.1.0)
+
+DEPENDENCIES:
+  - YesidFaceAuthentication (from `../`)
+
+EXTERNAL SOURCES:
+  YesidFaceAuthentication:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YesidFaceAuthentication: d19bd84678c8edc3255ac4a66593dca98885025d
+
+PODFILE CHECKSUM: 4ec0152e85a944956d06fd196bfceea36fd3f07a
+
+COCOAPODS: 1.11.3
