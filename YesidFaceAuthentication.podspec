@@ -1,42 +1,17 @@
-#
-# Be sure to run `pod lib lint YesidFaceAuthentication.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'YesidFaceAuthentication'
   s.version          = '0.1.0'
   s.summary          = 'YesidFaceAuthentication SDK for SwiftUI'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'YesidFaceAuthentication is a library that provides an easy-to-use interface for integrating facial recognition into your SwiftUI apps. With support for both front-facing and rear-facing cameras, you can quickly and securely authenticate your users with just a few lines of code. Whether you are building a banking app, a health app, or any other app that requires secure authentication, YesidFaceAuthentication has you covered.'
 
   s.homepage         = 'https://github.com/IDTech-Tanzania/YesidFaceAuthentication'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Emmanuel Mtera' => 'emtera@yesid.io' }
   s.source           = { :git => 'https://github.com/IDTech-Tanzania/YesidFaceAuthentication.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
+  s.swift_versions = ['5.0']
 
   s.source_files = 'YesidFaceAuthentication/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'YesidFaceAuthentication' => ['YesidFaceAuthentication/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
