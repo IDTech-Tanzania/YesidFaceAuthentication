@@ -7,79 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02F71280DFF4EB2B7FA70339A1B0E3B3 /* FaceMatchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90303954FFB2284C15C93C13B4C3B1A0 /* FaceMatchResponse.swift */; };
 		06FB0BA3F0A2347414A82E063AB6C1D5 /* Pods-YesidFaceAuthentication_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 092871C0E63A540D00217F913BF9CC82 /* Pods-YesidFaceAuthentication_Tests-dummy.m */; };
+		10460AB2033D5C562BBB417969F1BF18 /* FaceAuthCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F8CBA2F71DF8EBF6468A29D57F9B0B /* FaceAuthCameraView.swift */; };
+		19C673EB2AADE43EE3DF1586C63B72CD /* YesidFaceAuthentication-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E43EE30C3761BFE06099BE6B7D2D223E /* YesidFaceAuthentication-dummy.m */; };
+		1F04DD8E70F2232F53349BB6D2FB847B /* YesidFaceAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C38B53D7D7C7B14F2EE622FF27FCE3F /* YesidFaceAuthentication.swift */; };
 		303EC38D49869CD19ED4BC046E657921 /* Pods-YesidFaceAuthentication_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35930B5B2B624EF939D85B400D511118 /* Pods-YesidFaceAuthentication_Example-dummy.m */; };
-		590F48CF29363A9C00E1F006 /* FaceAuthCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590F48CE29363A9C00E1F006 /* FaceAuthCameraView.swift */; };
-		590F48D129363AB100E1F006 /* YesidFaceAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590F48D029363AB100E1F006 /* YesidFaceAuthentication.swift */; };
-		590F48D329363ACC00E1F006 /* FaceMatchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590F48D229363ACC00E1F006 /* FaceMatchResponse.swift */; };
-		590F48D529363ADE00E1F006 /* FaceAuthCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590F48D429363ADE00E1F006 /* FaceAuthCamera.swift */; };
-		590F48D729363AEF00E1F006 /* FaceAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590F48D629363AEF00E1F006 /* FaceAuth.swift */; };
-		590F48D929363B5400E1F006 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590F48D829363B5300E1F006 /* Extensions.swift */; };
-		5A63861DFF93E41B4D60EDE5456F4489 /* YesidFaceAuthentication-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC02F57AC578B5232581A5E08057555 /* YesidFaceAuthentication-dummy.m */; };
-		96D455946F86F18EB76F519083B7D9D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5D0706C94AEE74EF365366F2EA675890 /* YesidFaceAuthentication-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB86E94FEE2204B98127F697C42B2DB /* YesidFaceAuthentication-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D497D8A290C853618877937CBCC0799 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1114BFE30282211EE6F055C6AB7A706B /* CameraView.swift */; };
+		89D222FBD94F5EA3E94F9F05A32A294C /* FaceAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B403EF4AB36FB49FFE0D9B8F797B7AD /* FaceAuth.swift */; };
+		8A428365ABFBC992FBF9F885DF716002 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB706610976D408230102580196683C /* Extensions.swift */; };
 		A2E474F54DDA27C24CDD31299CD9E962 /* Pods-YesidFaceAuthentication_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D312E6355A50C66DE1B05A3B8CD9D7 /* Pods-YesidFaceAuthentication_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3C5C97CD86B13EFDE811A150992C3FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C0D540DE0E4DF7FB89E85460460A5BDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C1930248889EEFFB76009A92B44251E0 /* Pods-YesidFaceAuthentication_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA61E3D0C4D556EB33C66022E8FDCB7 /* Pods-YesidFaceAuthentication_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E97508FB199A80B359FC0A59FC63DBA6 /* YesidFaceAuthentication-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51E9605DEB10346EC1C6B7262A48530A /* YesidFaceAuthentication-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3BDC65A9B6E3EC5CFE228EB72B1A48F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FCB04515DB139EF33CD94AB5634D294C /* FaceAuthCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A6906C111BCD8F425BE4D2DDD0AD97 /* FaceAuthCamera.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8215CC9347DE5CC3912A6EA614F7E5F5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C15B9B3F1FBF5CD8E1E8CB2C17423246;
-			remoteInfo = "Pods-YesidFaceAuthentication_Example";
-		};
-		ECB63BBDAE4A318EA7306A073D2A3B16 /* PBXContainerItemProxy */ = {
+		70F9F41C22E2200AB45B6D5716BAA031 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5A0E1139E01E9C7BD0A69A0D1F38855C;
 			remoteInfo = YesidFaceAuthentication;
 		};
+		B10B705675FDF301A848FEC3CF2C03CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C15B9B3F1FBF5CD8E1E8CB2C17423246;
+			remoteInfo = "Pods-YesidFaceAuthentication_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		08C69CFDDB2F662BEDA16F4A8E4E4C54 /* Pods-YesidFaceAuthentication_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YesidFaceAuthentication_Example.modulemap"; sourceTree = "<group>"; };
-		08DA393A769FE206EABAF5955333220A /* YesidFaceAuthentication-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YesidFaceAuthentication-prefix.pch"; sourceTree = "<group>"; };
 		092871C0E63A540D00217F913BF9CC82 /* Pods-YesidFaceAuthentication_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YesidFaceAuthentication_Tests-dummy.m"; sourceTree = "<group>"; };
-		153844EFB9F6BF8EDB73F816CB0A0FD2 /* YesidFaceAuthentication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YesidFaceAuthentication.debug.xcconfig; sourceTree = "<group>"; };
-		203CC1BC1828F2D6421D5B8FCF6BB906 /* YesidFaceAuthentication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YesidFaceAuthentication.release.xcconfig; sourceTree = "<group>"; };
+		1114BFE30282211EE6F055C6AB7A706B /* CameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		13F920DA77A65FC7B69C0797B9F86F16 /* YesidFaceAuthentication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YesidFaceAuthentication.debug.xcconfig; sourceTree = "<group>"; };
+		1E6FC245925882281137588E20B7827C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		26E9BBE4CD3F915E5D39B0B6F1824469 /* Pods-YesidFaceAuthentication_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YesidFaceAuthentication_Tests.modulemap"; sourceTree = "<group>"; };
+		2FCA51F236076A91692C80AF10D2696D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		341ED0E37CFAA5791DB6085492DAA94D /* Pods-YesidFaceAuthentication_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YesidFaceAuthentication_Example-frameworks.sh"; sourceTree = "<group>"; };
 		35930B5B2B624EF939D85B400D511118 /* Pods-YesidFaceAuthentication_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YesidFaceAuthentication_Example-dummy.m"; sourceTree = "<group>"; };
 		40A14077F98A2317E018184FB3A656EB /* Pods-YesidFaceAuthentication_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YesidFaceAuthentication_Example-Info.plist"; sourceTree = "<group>"; };
 		4AA61E3D0C4D556EB33C66022E8FDCB7 /* Pods-YesidFaceAuthentication_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YesidFaceAuthentication_Tests-umbrella.h"; sourceTree = "<group>"; };
-		51E9605DEB10346EC1C6B7262A48530A /* YesidFaceAuthentication-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YesidFaceAuthentication-umbrella.h"; sourceTree = "<group>"; };
-		590F48CE29363A9C00E1F006 /* FaceAuthCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FaceAuthCameraView.swift; path = YesidFaceAuthentication/Classes/Views/FaceAuthCameraView.swift; sourceTree = "<group>"; };
-		590F48D029363AB100E1F006 /* YesidFaceAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = YesidFaceAuthentication.swift; path = YesidFaceAuthentication/Classes/Views/YesidFaceAuthentication.swift; sourceTree = "<group>"; };
-		590F48D229363ACC00E1F006 /* FaceMatchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FaceMatchResponse.swift; path = YesidFaceAuthentication/Classes/ViewModels/FaceMatchResponse.swift; sourceTree = "<group>"; };
-		590F48D429363ADE00E1F006 /* FaceAuthCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FaceAuthCamera.swift; path = YesidFaceAuthentication/Classes/ViewModels/FaceAuthCamera.swift; sourceTree = "<group>"; };
-		590F48D629363AEF00E1F006 /* FaceAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FaceAuth.swift; path = YesidFaceAuthentication/Classes/ViewModels/FaceAuth.swift; sourceTree = "<group>"; };
-		590F48D829363B5300E1F006 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = YesidFaceAuthentication/Classes/Extensions/Extensions.swift; sourceTree = "<group>"; };
+		5B403EF4AB36FB49FFE0D9B8F797B7AD /* FaceAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FaceAuth.swift; sourceTree = "<group>"; };
 		5C64757CCB4275D3CD20C51F1D6C58CC /* Pods-YesidFaceAuthentication_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YesidFaceAuthentication_Example.release.xcconfig"; sourceTree = "<group>"; };
-		62ABD4E1F831E4EB4A8E57EFCD881E36 /* YesidFaceAuthentication-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YesidFaceAuthentication-Info.plist"; sourceTree = "<group>"; };
-		6E45008AC3D6499B639323793AA48585 /* YesidFaceAuthentication.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YesidFaceAuthentication.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5DB86E94FEE2204B98127F697C42B2DB /* YesidFaceAuthentication-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YesidFaceAuthentication-umbrella.h"; sourceTree = "<group>"; };
+		69DD3B607C8A5A43330E5B6D262218C7 /* YesidFaceAuthentication.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YesidFaceAuthentication.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6E8EF07358D9059FCB7E6B8D4AC975C8 /* YesidFaceAuthentication.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YesidFaceAuthentication.modulemap; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		75A3A6207995CAACE107AC0C2F22616B /* Pods-YesidFaceAuthentication_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YesidFaceAuthentication_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7FB706610976D408230102580196683C /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7FD565F0D6F179F90F2D2B74B3FF7959 /* YesidFaceAuthentication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YesidFaceAuthentication.release.xcconfig; sourceTree = "<group>"; };
 		8AE0D3EB22CF5FFF8C6CF2F539195D92 /* Pods-YesidFaceAuthentication_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YesidFaceAuthentication_Tests"; path = Pods_YesidFaceAuthentication_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		94ECF9F80F318BEA09E25C76265BDC03 /* YesidFaceAuthentication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YesidFaceAuthentication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AC02F57AC578B5232581A5E08057555 /* YesidFaceAuthentication-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YesidFaceAuthentication-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		90303954FFB2284C15C93C13B4C3B1A0 /* FaceMatchResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FaceMatchResponse.swift; sourceTree = "<group>"; };
+		94ECF9F80F318BEA09E25C76265BDC03 /* YesidFaceAuthentication */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YesidFaceAuthentication; path = YesidFaceAuthentication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C38B53D7D7C7B14F2EE622FF27FCE3F /* YesidFaceAuthentication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = YesidFaceAuthentication.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3F8CBA2F71DF8EBF6468A29D57F9B0B /* FaceAuthCameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FaceAuthCameraView.swift; sourceTree = "<group>"; };
 		AB77C11E3CA85869C8CD229B30071A0B /* Pods-YesidFaceAuthentication_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YesidFaceAuthentication_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B0DA9994D2E08E9017DF0536D14BD1D0 /* Pods-YesidFaceAuthentication_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YesidFaceAuthentication_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B1FB19F390994C2A98957A0BDE4BAA2D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		B8104EC9D3CB55BCBEB117DD54F36FFD /* YesidFaceAuthentication.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YesidFaceAuthentication.modulemap; sourceTree = "<group>"; };
 		C2CE0A99F32BAF88C1DED38F623FFF3E /* Pods-YesidFaceAuthentication_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YesidFaceAuthentication_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C954092F5317E1DF46CE830D9A342E27 /* Pods-YesidFaceAuthentication_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YesidFaceAuthentication_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D2BF805DFE32537C8811BED091391CC6 /* Pods-YesidFaceAuthentication_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YesidFaceAuthentication_Example"; path = Pods_YesidFaceAuthentication_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D597E94E63E8648D98F8C1BBD2B1BF87 /* Pods-YesidFaceAuthentication_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YesidFaceAuthentication_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D6D312E6355A50C66DE1B05A3B8CD9D7 /* Pods-YesidFaceAuthentication_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YesidFaceAuthentication_Example-umbrella.h"; sourceTree = "<group>"; };
 		D85855CCB8E446F7EE85C0F1F3FDF90B /* Pods-YesidFaceAuthentication_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YesidFaceAuthentication_Tests-Info.plist"; sourceTree = "<group>"; };
+		E3857838E00E7485B6857D981C8AE701 /* YesidFaceAuthentication-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YesidFaceAuthentication-prefix.pch"; sourceTree = "<group>"; };
+		E43EE30C3761BFE06099BE6B7D2D223E /* YesidFaceAuthentication-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YesidFaceAuthentication-dummy.m"; sourceTree = "<group>"; };
+		E6A6906C111BCD8F425BE4D2DDD0AD97 /* FaceAuthCamera.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FaceAuthCamera.swift; sourceTree = "<group>"; };
 		E6DBC404BFD8A2CC2FCDD778E24BA655 /* Pods-YesidFaceAuthentication_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YesidFaceAuthentication_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F0080DF85AA7BB66A765A9E8183D19FF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F7209968B00875CCF96AD438E4E92B5E /* YesidFaceAuthentication-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YesidFaceAuthentication-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,11 +93,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D402A6BC8D1A6845BEF8BB90E3873D6 /* Frameworks */ = {
+		2634CEDD4342379B63A82D90E79E98A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96D455946F86F18EB76F519083B7D9D4 /* Foundation.framework in Frameworks */,
+				F3BDC65A9B6E3EC5CFE228EB72B1A48F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,20 +112,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3D0B4D617D5DD455B2B22A1C2F712CA3 /* YesidFaceAuthentication */ = {
+		1E336EF7BF0DAEBDF4D936DD623C38BD /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				82253C5254980D893AC18B7CDC6FF9F7 /* Pod */,
-				D6A5D31AB9AF251D8E191FDAC17F783D /* Support Files */,
-				590F48CE29363A9C00E1F006 /* FaceAuthCameraView.swift */,
-				590F48D029363AB100E1F006 /* YesidFaceAuthentication.swift */,
-				590F48D229363ACC00E1F006 /* FaceMatchResponse.swift */,
-				590F48D429363ADE00E1F006 /* FaceAuthCamera.swift */,
-				590F48D629363AEF00E1F006 /* FaceAuth.swift */,
-				590F48D829363B5300E1F006 /* Extensions.swift */,
+				1E6FC245925882281137588E20B7827C /* LICENSE */,
+				2FCA51F236076A91692C80AF10D2696D /* README.md */,
+				69DD3B607C8A5A43330E5B6D262218C7 /* YesidFaceAuthentication.podspec */,
 			);
-			name = YesidFaceAuthentication;
-			path = ../..;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2370D3FB3FCE87A7FA515E6C85BC5F9D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1114BFE30282211EE6F055C6AB7A706B /* CameraView.swift */,
+				A3F8CBA2F71DF8EBF6468A29D57F9B0B /* FaceAuthCameraView.swift */,
+				9C38B53D7D7C7B14F2EE622FF27FCE3F /* YesidFaceAuthentication.swift */,
+			);
+			name = Views;
+			path = YesidFaceAuthentication/Classes/Views;
+			sourceTree = "<group>";
+		};
+		47F4EDC34CEFC320FC6A562CCBA7AEF0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E8EF07358D9059FCB7E6B8D4AC975C8 /* YesidFaceAuthentication.modulemap */,
+				E43EE30C3761BFE06099BE6B7D2D223E /* YesidFaceAuthentication-dummy.m */,
+				F7209968B00875CCF96AD438E4E92B5E /* YesidFaceAuthentication-Info.plist */,
+				E3857838E00E7485B6857D981C8AE701 /* YesidFaceAuthentication-prefix.pch */,
+				5DB86E94FEE2204B98127F697C42B2DB /* YesidFaceAuthentication-umbrella.h */,
+				13F920DA77A65FC7B69C0797B9F86F16 /* YesidFaceAuthentication.debug.xcconfig */,
+				7FD565F0D6F179F90F2D2B74B3FF7959 /* YesidFaceAuthentication.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YesidFaceAuthentication";
+			sourceTree = "<group>";
+		};
+		4957F19ADCED85FCF40FE88DA06C9B97 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD284C7416E8661374A5180C6A526B1A /* YesidFaceAuthentication */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -139,7 +169,7 @@
 			children = (
 				D2BF805DFE32537C8811BED091391CC6 /* Pods-YesidFaceAuthentication_Example */,
 				8AE0D3EB22CF5FFF8C6CF2F539195D92 /* Pods-YesidFaceAuthentication_Tests */,
-				94ECF9F80F318BEA09E25C76265BDC03 /* YesidFaceAuthentication.framework */,
+				94ECF9F80F318BEA09E25C76265BDC03 /* YesidFaceAuthentication */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -161,22 +191,24 @@
 			path = "Target Support Files/Pods-YesidFaceAuthentication_Example";
 			sourceTree = "<group>";
 		};
-		82253C5254980D893AC18B7CDC6FF9F7 /* Pod */ = {
+		733A4D526FDD282B3BAB50728EC84D54 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				F0080DF85AA7BB66A765A9E8183D19FF /* LICENSE */,
-				B1FB19F390994C2A98957A0BDE4BAA2D /* README.md */,
-				6E45008AC3D6499B639323793AA48585 /* YesidFaceAuthentication.podspec */,
+				7FB706610976D408230102580196683C /* Extensions.swift */,
 			);
-			name = Pod;
+			name = Extensions;
+			path = YesidFaceAuthentication/Classes/Extensions;
 			sourceTree = "<group>";
 		};
-		84BC4819E88783F80DB673C8CC8293A1 /* Development Pods */ = {
+		ABCBDBD9820D35DE08F367FFDFA8C008 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				3D0B4D617D5DD455B2B22A1C2F712CA3 /* YesidFaceAuthentication */,
+				5B403EF4AB36FB49FFE0D9B8F797B7AD /* FaceAuth.swift */,
+				E6A6906C111BCD8F425BE4D2DDD0AD97 /* FaceAuthCamera.swift */,
+				90303954FFB2284C15C93C13B4C3B1A0 /* FaceMatchResponse.swift */,
 			);
-			name = "Development Pods";
+			name = ViewModels;
+			path = YesidFaceAuthentication/Classes/ViewModels;
 			sourceTree = "<group>";
 		};
 		C5000A475A04B68023D68271F4A6F751 /* Pods-YesidFaceAuthentication_Tests */ = {
@@ -195,11 +227,24 @@
 			path = "Target Support Files/Pods-YesidFaceAuthentication_Tests";
 			sourceTree = "<group>";
 		};
+		CD284C7416E8661374A5180C6A526B1A /* YesidFaceAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				733A4D526FDD282B3BAB50728EC84D54 /* Extensions */,
+				1E336EF7BF0DAEBDF4D936DD623C38BD /* Pod */,
+				47F4EDC34CEFC320FC6A562CCBA7AEF0 /* Support Files */,
+				ABCBDBD9820D35DE08F367FFDFA8C008 /* ViewModels */,
+				2370D3FB3FCE87A7FA515E6C85BC5F9D /* Views */,
+			);
+			name = YesidFaceAuthentication;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				84BC4819E88783F80DB673C8CC8293A1 /* Development Pods */,
+				4957F19ADCED85FCF40FE88DA06C9B97 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				59638496ED024900B50BC29B37C61B5E /* Products */,
 				E33586457C89301D32648AEFBB4C3284 /* Targets Support Files */,
@@ -212,21 +257,6 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D6A5D31AB9AF251D8E191FDAC17F783D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B8104EC9D3CB55BCBEB117DD54F36FFD /* YesidFaceAuthentication.modulemap */,
-				9AC02F57AC578B5232581A5E08057555 /* YesidFaceAuthentication-dummy.m */,
-				62ABD4E1F831E4EB4A8E57EFCD881E36 /* YesidFaceAuthentication-Info.plist */,
-				08DA393A769FE206EABAF5955333220A /* YesidFaceAuthentication-prefix.pch */,
-				51E9605DEB10346EC1C6B7262A48530A /* YesidFaceAuthentication-umbrella.h */,
-				153844EFB9F6BF8EDB73F816CB0A0FD2 /* YesidFaceAuthentication.debug.xcconfig */,
-				203CC1BC1828F2D6421D5B8FCF6BB906 /* YesidFaceAuthentication.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YesidFaceAuthentication";
 			sourceTree = "<group>";
 		};
 		E33586457C89301D32648AEFBB4C3284 /* Targets Support Files */ = {
@@ -249,11 +279,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		66826D220C6936946E91FA88F7C7CF3A /* Headers */ = {
+		44AA3DB444A04F53A44120DA51B545CD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E97508FB199A80B359FC0A59FC63DBA6 /* YesidFaceAuthentication-umbrella.h in Headers */,
+				5D0706C94AEE74EF365366F2EA675890 /* YesidFaceAuthentication-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +310,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				25A88D4EA5361C20D2B7886ED9FE881F /* PBXTargetDependency */,
+				40717D21A75C7F1CFAEA92E61B3B24C5 /* PBXTargetDependency */,
 			);
 			name = "Pods-YesidFaceAuthentication_Tests";
 			productName = Pods_YesidFaceAuthentication_Tests;
@@ -289,12 +319,12 @@
 		};
 		5A0E1139E01E9C7BD0A69A0D1F38855C /* YesidFaceAuthentication */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82504F4C10B5D77F5B7DB704ECDDBB55 /* Build configuration list for PBXNativeTarget "YesidFaceAuthentication" */;
+			buildConfigurationList = F6B2CAC20978E45418ACB8E51EB320B0 /* Build configuration list for PBXNativeTarget "YesidFaceAuthentication" */;
 			buildPhases = (
-				66826D220C6936946E91FA88F7C7CF3A /* Headers */,
-				726ADFF274BCA061734C19A6FE6F8073 /* Sources */,
-				2D402A6BC8D1A6845BEF8BB90E3873D6 /* Frameworks */,
-				39450F30A30E00E42EA32A352CC77CCA /* Resources */,
+				44AA3DB444A04F53A44120DA51B545CD /* Headers */,
+				3961DFA9F37E61CFD08D1F4468292290 /* Sources */,
+				2634CEDD4342379B63A82D90E79E98A2 /* Frameworks */,
+				363C010B378B441B477B129DBAF02DAC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -302,7 +332,7 @@
 			);
 			name = YesidFaceAuthentication;
 			productName = YesidFaceAuthentication;
-			productReference = 94ECF9F80F318BEA09E25C76265BDC03 /* YesidFaceAuthentication.framework */;
+			productReference = 94ECF9F80F318BEA09E25C76265BDC03 /* YesidFaceAuthentication */;
 			productType = "com.apple.product-type.framework";
 		};
 		C15B9B3F1FBF5CD8E1E8CB2C17423246 /* Pods-YesidFaceAuthentication_Example */ = {
@@ -317,7 +347,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				15C5432DED7AD4C264C6FFEAD2914804 /* PBXTargetDependency */,
+				F9544DA1AD07375140AA46B640BEB0AF /* PBXTargetDependency */,
 			);
 			name = "Pods-YesidFaceAuthentication_Example";
 			productName = Pods_YesidFaceAuthentication_Example;
@@ -332,11 +362,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
-				TargetAttributes = {
-					5A0E1139E01E9C7BD0A69A0D1F38855C = {
-						LastSwiftMigration = 1410;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -359,7 +384,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		39450F30A30E00E42EA32A352CC77CCA /* Resources */ = {
+		363C010B378B441B477B129DBAF02DAC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -391,17 +416,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		726ADFF274BCA061734C19A6FE6F8073 /* Sources */ = {
+		3961DFA9F37E61CFD08D1F4468292290 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				590F48D529363ADE00E1F006 /* FaceAuthCamera.swift in Sources */,
-				590F48D129363AB100E1F006 /* YesidFaceAuthentication.swift in Sources */,
-				590F48D329363ACC00E1F006 /* FaceMatchResponse.swift in Sources */,
-				590F48CF29363A9C00E1F006 /* FaceAuthCameraView.swift in Sources */,
-				590F48D729363AEF00E1F006 /* FaceAuth.swift in Sources */,
-				5A63861DFF93E41B4D60EDE5456F4489 /* YesidFaceAuthentication-dummy.m in Sources */,
-				590F48D929363B5400E1F006 /* Extensions.swift in Sources */,
+				7D497D8A290C853618877937CBCC0799 /* CameraView.swift in Sources */,
+				8A428365ABFBC992FBF9F885DF716002 /* Extensions.swift in Sources */,
+				89D222FBD94F5EA3E94F9F05A32A294C /* FaceAuth.swift in Sources */,
+				FCB04515DB139EF33CD94AB5634D294C /* FaceAuthCamera.swift in Sources */,
+				10460AB2033D5C562BBB417969F1BF18 /* FaceAuthCameraView.swift in Sources */,
+				02F71280DFF4EB2B7FA70339A1B0E3B3 /* FaceMatchResponse.swift in Sources */,
+				1F04DD8E70F2232F53349BB6D2FB847B /* YesidFaceAuthentication.swift in Sources */,
+				19C673EB2AADE43EE3DF1586C63B72CD /* YesidFaceAuthentication-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,54 +442,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		15C5432DED7AD4C264C6FFEAD2914804 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YesidFaceAuthentication;
-			target = 5A0E1139E01E9C7BD0A69A0D1F38855C /* YesidFaceAuthentication */;
-			targetProxy = ECB63BBDAE4A318EA7306A073D2A3B16 /* PBXContainerItemProxy */;
-		};
-		25A88D4EA5361C20D2B7886ED9FE881F /* PBXTargetDependency */ = {
+		40717D21A75C7F1CFAEA92E61B3B24C5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-YesidFaceAuthentication_Example";
 			target = C15B9B3F1FBF5CD8E1E8CB2C17423246 /* Pods-YesidFaceAuthentication_Example */;
-			targetProxy = 8215CC9347DE5CC3912A6EA614F7E5F5 /* PBXContainerItemProxy */;
+			targetProxy = B10B705675FDF301A848FEC3CF2C03CE /* PBXContainerItemProxy */;
+		};
+		F9544DA1AD07375140AA46B640BEB0AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YesidFaceAuthentication;
+			target = 5A0E1139E01E9C7BD0A69A0D1F38855C /* YesidFaceAuthentication */;
+			targetProxy = 70F9F41C22E2200AB45B6D5716BAA031 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		071A2D34A9C660B0EF67B7BCCC907486 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 153844EFB9F6BF8EDB73F816CB0A0FD2 /* YesidFaceAuthentication.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YesidFaceAuthentication/YesidFaceAuthentication-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YesidFaceAuthentication/YesidFaceAuthentication-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YesidFaceAuthentication/YesidFaceAuthentication.modulemap";
-				PRODUCT_MODULE_NAME = YesidFaceAuthentication;
-				PRODUCT_NAME = YesidFaceAuthentication;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		08F0C32AF79F5C751427EAB06A176FD7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5C64757CCB4275D3CD20C51F1D6C58CC /* Pods-YesidFaceAuthentication_Example.release.xcconfig */;
@@ -498,11 +491,10 @@
 			};
 			name = Release;
 		};
-		32693DDF7BE992CD67A5BC68BEC0669E /* Release */ = {
+		6612A22D93041D1DDB5E3FE9855E13E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 203CC1BC1828F2D6421D5B8FCF6BB906 /* YesidFaceAuthentication.release.xcconfig */;
+			baseConfigurationReference = 13F920DA77A65FC7B69C0797B9F86F16 /* YesidFaceAuthentication.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -515,7 +507,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/YesidFaceAuthentication/YesidFaceAuthentication-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/YesidFaceAuthentication/YesidFaceAuthentication-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/YesidFaceAuthentication/YesidFaceAuthentication.modulemap";
 				PRODUCT_MODULE_NAME = YesidFaceAuthentication;
@@ -523,13 +515,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -586,7 +577,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -658,6 +650,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		9CF627C333B0AB2D95346C6035B39BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FD565F0D6F179F90F2D2B74B3FF7959 /* YesidFaceAuthentication.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YesidFaceAuthentication/YesidFaceAuthentication-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YesidFaceAuthentication/YesidFaceAuthentication-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YesidFaceAuthentication/YesidFaceAuthentication.modulemap";
+				PRODUCT_MODULE_NAME = YesidFaceAuthentication;
+				PRODUCT_NAME = YesidFaceAuthentication;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -779,20 +803,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		82504F4C10B5D77F5B7DB704ECDDBB55 /* Build configuration list for PBXNativeTarget "YesidFaceAuthentication" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				071A2D34A9C660B0EF67B7BCCC907486 /* Debug */,
-				32693DDF7BE992CD67A5BC68BEC0669E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		C3F251D167D8D0E16C9F634D72F6E05C /* Build configuration list for PBXNativeTarget "Pods-YesidFaceAuthentication_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF3FBF051C7651FB51BA7B08003DA0BC /* Debug */,
 				08F0C32AF79F5C751427EAB06A176FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6B2CAC20978E45418ACB8E51EB320B0 /* Build configuration list for PBXNativeTarget "YesidFaceAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6612A22D93041D1DDB5E3FE9855E13E5 /* Debug */,
+				9CF627C333B0AB2D95346C6035B39BAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

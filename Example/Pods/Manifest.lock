@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YesidFaceAuthentication: d19bd84678c8edc3255ac4a66593dca98885025d
+  YesidFaceAuthentication: 3cc7415bfa284d956bd271e5a73332cd36c4f2b1
 
 PODFILE CHECKSUM: 4ec0152e85a944956d06fd196bfceea36fd3f07a
 
