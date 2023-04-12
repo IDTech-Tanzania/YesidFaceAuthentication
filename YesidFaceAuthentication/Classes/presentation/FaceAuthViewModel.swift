@@ -149,7 +149,6 @@ public class FaceAuthViewModel: NSObject, ObservableObject {
                 self.faceMatchResults = Result()
                 self.isLoading = false
             }
-            print("Error: Invalid API endpoint URL")
             return
         }
         
