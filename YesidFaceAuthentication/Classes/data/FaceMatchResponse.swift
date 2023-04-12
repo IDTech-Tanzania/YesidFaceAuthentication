@@ -1,7 +1,9 @@
-// This file was generated from JSON Schema using quicktype, do not modify it directly.
-// To parse the JSON, add this file to your project and do:
 //
-//   let regulaResponse = try? newJSONDecoder().decode(RegulaResponse.self, from: jsonData)
+//  FaceMatchResponse.swift
+//  YesidFaceEnrollment
+//
+//  Created by Emmanuel Mtera on 4/12/23.
+//
 
 import Foundation
 

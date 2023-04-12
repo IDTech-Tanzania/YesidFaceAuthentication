@@ -8,7 +8,7 @@
 import SwiftUI
 
 public struct YesidFaceAuthentication: View {
-    @EnvironmentObject var faceAuthViewModel:FaceAuthenticationViewModel
+    @EnvironmentObject var faceAuthViewModel: FaceAuthViewModel
     @EnvironmentObject var captureSession: FaceAuthCaptureSession
     
     var screenWidth: CGFloat {
@@ -47,7 +47,7 @@ public struct YesidFaceAuthentication: View {
     }
     
     @ViewBuilder
-    func ArrowView()->some View {
+    private func ArrowView()->some View {
         Group{
             if self.faceAuthViewModel.direction == "Look Left" {
                 SwiftUI.Image(systemName: "arrow.left")
@@ -74,7 +74,7 @@ public struct YesidFaceAuthentication: View {
     
     @ViewBuilder
     func MainCameraView() -> some View {
-        CameraView(captureSession: self.captureSession.captureSession)
+        FaceAuthCameraView(captureSession: self.captureSession.captureSession)
     }
     
     @ViewBuilder
@@ -96,21 +96,3 @@ public struct YesidFaceAuthentication: View {
         .frame(maxWidth:self.screenWidth,maxHeight: self.screenHeight)
     }
 }
-
-struct YesidFaceAuthentication_Previews: PreviewProvider {
-    static var previews: some View {
-        YesidFaceAuthentication()
-    }
-}
-
-
-struct FaceAuthMaskShape : Shape {
-    var inset : UIEdgeInsets
-    
-    func path(in rect: CGRect) -> Path {
-        var shape = Rectangle().path(in: rect)
-        shape.addPath(Circle().path(in: CGRect(x: rect.midX - 125, y: rect.midY - 125, width: 250, height: 250)))
-        return shape
-    }
-}
-

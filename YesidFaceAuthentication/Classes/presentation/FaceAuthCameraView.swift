@@ -1,3 +1,9 @@
+//
+//  CameraView.swift
+//  object-detection
+//
+//  Created by Aim Group on 19/09/2022.
+//
 
 import Foundation
 import AVFoundation
@@ -5,7 +11,7 @@ import UIKit
 import SwiftUI
 
 struct FaceAuthCameraView: UIViewRepresentable {
-    typealias UIViewType = FaceAuthPreviewView
+    typealias UIViewType = PreviewView
     
     var captureSession: AVCaptureSession
     
@@ -17,7 +23,7 @@ struct FaceAuthCameraView: UIViewRepresentable {
     }
 }
 
-class FaceAuthPreviewView: UIView {
+class PreviewView: UIView {
     private var captureSession: AVCaptureSession
     
     init(captureSession: AVCaptureSession) {
@@ -54,8 +60,9 @@ class FaceAuthPreviewView: UIView {
         
         if nil != self.superview {
             self.videoPreviewLayer.session = self.captureSession
-            self.videoPreviewLayer.videoGravity = .resizeAspect
+            self.videoPreviewLayer.videoGravity = .resizeAspectFill
         }
     }
+    
 }
 

@@ -5,7 +5,7 @@ import UIKit
 import Combine
 import AVFoundation
 
-public class FaceAuthenticationViewModel: NSObject, ObservableObject {
+public class FaceAuthViewModel: NSObject, ObservableObject {
     
     private var apiEndpoint = "https://faceapi.regulaforensics.com/api/match"
         
@@ -162,7 +162,7 @@ public class FaceAuthenticationViewModel: NSObject, ObservableObject {
         request.httpBody = body.data(using: .utf8)
         
         let task = URLSession.shared.dataTask(with: request) { data, response, error in
-            if let error = error {
+            if error != nil {
                 DispatchQueue.main.async {
                     self.faceMatchResults = Result()
                     self.isLoading = false
